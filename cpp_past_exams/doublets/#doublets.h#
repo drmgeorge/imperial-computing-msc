@@ -1,0 +1,24 @@
+/*  This pre-supplied function looks up a given word in the dictionary
+    of approved words. It is assumed that the input word is in uppercase.
+    The function returns true if the word is in the dictionary.
+    Otherwise returns false. */
+
+bool dictionary_search(const char *word);
+
+/* add your function prototypes here */
+
+//Question 1
+bool valid_step(const char* current_word, const char* next_word);
+
+//Question 2
+bool display_chain(const char* chain[], ostream& outs);
+void convert_to_lower(char* word, int length);
+
+//Question 3
+bool valid_chain(const char* chain[]);
+
+//Question 4
+bool find_chain(const char* start_word, const char* target_word,
+	        const char* answer_chain[], int max_steps);
+		
+x
